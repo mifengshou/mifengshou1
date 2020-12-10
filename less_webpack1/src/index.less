@@ -1,0 +1,89 @@
+@width200: 200px;
+@height200: 200px;
+@fsize20: 20px;
+
+// .sss{
+//   width: @width;
+//   height: @height;
+//   background-color: #faf;
+//   font-size: @fsize;
+// }
+@px0: 0px;
+@transparent: transparent;
+@border-style: solid;
+
+.width(@border-width) {
+  border-width: @border-width;
+}
+
+.bg(@color) {
+  background-color: @color;
+}
+
+div {
+  float: left;
+}
+
+.box1 {
+  width: @px0;
+  height: @px0;
+  .width(30px);
+  border-style: @border-style;
+  border-color: @transparent @transparent @transparent #ffa;
+}
+
+.box2 {
+  width: @px0;
+  height: @px0;
+  .width(30px);
+  border-style: @border-style;
+  border-color: @transparent @transparent @transparent #aaf;
+}
+
+.box3 {
+  width: @px0;
+  height: @px0;
+  .width(100px);
+  border-style: @border-style;
+  border-color: @transparent @transparent #faf @transparent ;
+}
+
+.box4 {
+  width: @px0;
+  height: @px0;
+  .width(100px);
+  border-style: @border-style;
+  border-color: @transparent @transparent #afa @transparent ;
+}
+
+.box5 {
+  width: @px0;
+  height: @px0;
+  .width(50px);
+  border-style: @border-style;
+  border-color: @transparent #aff @transparent @transparent ;
+}
+
+.box6 {
+  width: @px0;
+  height: @px0;
+  .width(50px);
+  border-style: @border-style;
+  border-color: @transparent #faa @transparent @transparent ;
+}
+
+.box7 {
+  width: @px0;
+  height: @px0;
+  .width(150px);
+  border-style: @border-style;
+  border-color: #aaa @transparent @transparent @transparent ;
+}
+
+.box8 {
+  width: @px0;
+  height: @px0;
+  .width(150px);
+  border-style: @border-style;
+  border-color: #333 @transparent @transparent @transparent ;
+}
